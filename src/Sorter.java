@@ -45,8 +45,8 @@ public class Sorter {
             arr[j + 1] = key;
         }
     }
-    public static void sort(int[] arr) {
-        insertionSort(arr);
+    public static void sort(int[] array) {
+        insertionSort(array);
     }
     public static void printArray(int[] array) {
         for (int i = 0; i < array.length; i++) {
